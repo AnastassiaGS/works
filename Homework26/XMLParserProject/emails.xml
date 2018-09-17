@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="emails.xsd">
+<emails>
+	<email id="1">
+		<emailOfReceiver>agstelmak@gmail.com</emailOfReceiver>
+		<subject>Competitor links</subject>
+		<bodyOfEmail>Don't forget about competitor links.</bodyOfEmail>
+	</email>
+	<email id="2">
+		<emailOfReceiver>vasus@mail.ru</emailOfReceiver>
+		<subject>Ticket</subject>
+		<bodyOfEmail>You should order a ticket.</bodyOfEmail>
+	</email>
+	<email id="3">
+		<emailOfReceiver>lenka2011@tut.by</emailOfReceiver>
+		<subject>My cat</subject>
+		<bodyOfEmail>Thank you for feeding my cat.</bodyOfEmail>
+	</email>
+</emails>
+
