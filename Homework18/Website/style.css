@@ -1,0 +1,33 @@
+﻿BODY { 
+    background-color: 99ff66; /* Цвет фона */
+    }
+H1 {  
+color="#000000";  
+font-family: Arial, serif;
+font-style: normal;
+font-weight: bold;
+font-size: 
+font-size: 200%;  
+text-align: center;
+}
+H2 {  
+color="#000000";  
+font-family: Arial, serif;
+font-style: normal;
+font-weight: bold;
+font-size: 
+font-size: 190%;  
+text-align: center;
+}
+
+P { 
+color="#000000";  
+font-family: Arial, serif;
+font-style: normal;
+font-weight: normal;
+font-size: 
+font-size: 170%;  
+align: center;
+}
+
+
