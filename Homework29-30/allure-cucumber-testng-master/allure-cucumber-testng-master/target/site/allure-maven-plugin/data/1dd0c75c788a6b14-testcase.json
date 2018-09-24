@@ -1,0 +1,92 @@
+{
+  "uid" : "1dd0c75c788a6b14",
+  "name" : "passed example",
+  "title" : "passed example",
+  "time" : {
+    "start" : 1536135769723,
+    "stop" : 1536135776246,
+    "duration" : 6523
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "888633b129cbe0c5",
+    "name" : "Test login page",
+    "title" : "Test login page"
+  },
+  "steps" : [ {
+    "name" : "Given I am on the main application page",
+    "title" : "Given I am on the main application page",
+    "time" : {
+      "start" : 1536135769723,
+      "stop" : 1536135774868,
+      "duration" : 5145
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I pass",
+    "title" : "Then I pass",
+    "time" : {
+      "start" : 1536135774868,
+      "stop" : 1536135774868,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Attachment Screenshot",
+    "source" : "70e9ecd9-da4d-4e08-9cb7-9db0a549bc79-attachment.png",
+    "type" : "image/png",
+    "size" : 325291,
+    "uid" : "6fd35ef8b9a9b3ff"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "passed example"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Test login page"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test login page"
+  }, {
+    "name" : "thread",
+    "value" : "16404@EPBYMINW1362.main(1)"
+  }, {
+    "name" : "host",
+    "value" : "EPBYMINW1362"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}

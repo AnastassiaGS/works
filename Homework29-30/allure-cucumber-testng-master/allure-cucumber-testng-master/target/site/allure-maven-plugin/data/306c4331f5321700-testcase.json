@@ -1,0 +1,95 @@
+{
+  "uid" : "306c4331f5321700",
+  "name" : "failed example",
+  "title" : "failed example",
+  "time" : {
+    "start" : 1536135763678,
+    "stop" : 1536135769722,
+    "duration" : 6044
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 2
+  },
+  "failure" : {
+    "message" : "AssertionError: null",
+    "stackTrace" : "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat org.junit.Assert.assertTrue(Assert.java:52)\n\tat Steps.Steps.fail(Steps.java:70)\n\tat ✽.Then I fail(java/test-allure_en.feature:10)\n"
+  },
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "suite" : {
+    "uid" : "888633b129cbe0c5",
+    "name" : "Test login page",
+    "title" : "Test login page"
+  },
+  "steps" : [ {
+    "name" : "Given I am on the main application page",
+    "title" : "Given I am on the main application page",
+    "time" : {
+      "start" : 1536135763678,
+      "stop" : 1536135768422,
+      "duration" : 4744
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I fail",
+    "title" : "Then I fail",
+    "time" : {
+      "start" : 1536135768422,
+      "stop" : 1536135768435,
+      "duration" : 13
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Attachment Screenshot",
+    "source" : "d0e54efc-d269-49d7-a3aa-04004f677c9e-attachment.png",
+    "type" : "image/png",
+    "size" : 281135,
+    "uid" : "312eddc0e44557bb"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Test login page"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test login page"
+  }, {
+    "name" : "thread",
+    "value" : "16404@EPBYMINW1362.main(1)"
+  }, {
+    "name" : "host",
+    "value" : "EPBYMINW1362"
+  }, {
+    "name" : "story",
+    "value" : "failed example"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}

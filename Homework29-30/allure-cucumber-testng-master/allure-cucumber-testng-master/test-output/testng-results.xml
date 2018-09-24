@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10557" started-at="2018-09-09T09:18:18Z" finished-at="2018-09-09T09:18:29Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:junitcucumber.Check3MessageBoxesTest@6f139fc9]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="10557" started-at="2018-09-09T09:18:18Z" finished-at="2018-09-09T09:18:29Z">
+      <class name="junitcucumber.Check3MessageBoxesTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:junitcucumber.Check3MessageBoxesTest@6f139fc9]" name="setUpClass" is-config="true" duration-ms="5902" started-at="2018-09-09T12:18:19Z" finished-at="2018-09-09T12:18:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:junitcucumber.Check3MessageBoxesTest@6f139fc9]" name="feature" duration-ms="3146" started-at="2018-09-09T12:18:26Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-09-09T12:18:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test check three message boxes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:junitcucumber.Check3MessageBoxesTest@6f139fc9]" name="tearDownClass" is-config="true" duration-ms="75" started-at="2018-09-09T12:18:29Z" finished-at="2018-09-09T12:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- junitcucumber.Check3MessageBoxesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,95 @@
+{
+  "uid" : "cea058829c4ced46",
+  "name" : "pending example",
+  "title" : "pending example",
+  "time" : {
+    "start" : 1536135776249,
+    "stop" : 1536135782124,
+    "duration" : 5875
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 2
+  },
+  "failure" : {
+    "message" : "Unimplemented steps were found",
+    "stackTrace" : "There are no stack trace"
+  },
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PENDING",
+  "suite" : {
+    "uid" : "888633b129cbe0c5",
+    "name" : "Test login page",
+    "title" : "Test login page"
+  },
+  "steps" : [ {
+    "name" : "Given I am on the main application page",
+    "title" : "Given I am on the main application page",
+    "time" : {
+      "start" : 1536135776249,
+      "stop" : 1536135780959,
+      "duration" : 4710
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "I am not implemented",
+    "title" : "I am not implemented",
+    "time" : {
+      "start" : 1536135782117,
+      "stop" : 1536135782121,
+      "duration" : 4
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Attachment Screenshot",
+    "source" : "b24fecfa-655c-4cc8-b266-2431b35ec9bf-attachment.png",
+    "type" : "image/png",
+    "size" : 224537,
+    "uid" : "d805512b19efdf65"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Test login page"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test login page"
+  }, {
+    "name" : "thread",
+    "value" : "16404@EPBYMINW1362.main(1)"
+  }, {
+    "name" : "host",
+    "value" : "EPBYMINW1362"
+  }, {
+    "name" : "story",
+    "value" : "pending example"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}

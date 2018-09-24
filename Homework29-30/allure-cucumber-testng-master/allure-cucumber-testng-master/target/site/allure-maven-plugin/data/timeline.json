@@ -1,0 +1,53 @@
+{
+  "hosts" : [ {
+    "title" : "EPBYMINW1362",
+    "threads" : [ {
+      "title" : "16404@EPBYMINW1362.main(1)",
+      "testCases" : [ {
+        "uid" : "ba79d3a0e7bb9a40",
+        "name" : "Test positive login page",
+        "title" : "Test positive login page",
+        "time" : {
+          "start" : 1536135744157,
+          "stop" : 1536135763678,
+          "duration" : 19521
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "306c4331f5321700",
+        "name" : "failed example",
+        "title" : "failed example",
+        "time" : {
+          "start" : 1536135763678,
+          "stop" : 1536135769722,
+          "duration" : 6044
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "1dd0c75c788a6b14",
+        "name" : "passed example",
+        "title" : "passed example",
+        "time" : {
+          "start" : 1536135769723,
+          "stop" : 1536135776246,
+          "duration" : 6523
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "cea058829c4ced46",
+        "name" : "pending example",
+        "title" : "pending example",
+        "time" : {
+          "start" : 1536135776249,
+          "stop" : 1536135782124,
+          "duration" : 5875
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      } ]
+    } ]
+  } ]
+}

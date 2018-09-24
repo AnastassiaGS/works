@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1536484707585" stop="1536484707810" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Test check three message boxes</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1536484707748" stop="1536484707805" status="pending">
+            <name>Test positive send email to group of people</name>
+            <title>Test positive send email to group of people</title>
+            <description type="text"></description>
+            <failure>
+                <message>Unimplemented steps were found</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps>
+                <step start="1536484707762" stop="1536484707779" status="canceled">
+                    <name>I am on a page with "url"</name>
+                    <title>I am on a page with "url"</title>
+                </step>
+                <step start="1536484707798" stop="1536484707798" status="canceled">
+                    <name>I enter login in field with id "//*[@id = 'mailbox:login']"</name>
+                    <title>I enter login in field with id "//*[@id = 'mailbox:login']"</title>
+                </step>
+                <step start="1536484707798" stop="1536484707798" status="canceled">
+                    <name>I enter password in field with id  "//*[@id = 'mailbox:password']"</name>
+                    <title>I enter password in field with id  "//*[@id = 'mailbox:password']"</title>
+                </step>
+                <step start="1536484707798" stop="1536484707798" status="canceled">
+                    <name>I click on a button with id "//*[@id='mailbox:submit']/input"</name>
+                    <title>I click on a button with id "//*[@id='mailbox:submit']/input"</title>
+                </step>
+                <step start="1536484707798" stop="1536484707798" status="canceled">
+                    <name>I click button "Checkbox" with xpath "(//div[@class='b-checkbox__box'])[4]"</name>
+                    <title>I click button "Checkbox" with xpath "(//div[@class='b-checkbox__box'])[4]"</title>
+                </step>
+                <step start="1536484707798" stop="1536484707798" status="canceled">
+                    <name>I click button "Checkbox" with xpath "(//div[@class='b-checkbox__box'])[5]"</name>
+                    <title>I click button "Checkbox" with xpath "(//div[@class='b-checkbox__box'])[5]"</title>
+                </step>
+                <step start="1536484707798" stop="1536484707798" status="canceled">
+                    <name>I click button "Checkbox" with xpath "(//div[@class='b-checkbox__box'])[6]"</name>
+                    <title>I click button "Checkbox" with xpath "(//div[@class='b-checkbox__box'])[6]"</title>
+                </step>
+                <step start="1536484707798" stop="1536484707798" status="canceled">
+                    <name>I click on a  button "����" with xpath "(//span[@class='b-toolbar__btn__text b-toolbar__btn__text_pad'])[6]"</name>
+                    <title>I click on a  button "����" with xpath "(//span[@class='b-toolbar__btn__text b-toolbar__btn__text_pad'])[6]"</title>
+                </step>
+                <step start="1536484707798" stop="1536484707798" status="canceled">
+                    <name>I see a message "3 ������ ���������� � ����� '����'" with xpath "//*[contains(text(),'3 ������')]"</name>
+                    <title>I see a message "3 ������ ���������� � ����� '����'" with xpath "//*[contains(text(),'3 ������')]"</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Test positive send email to group of people"/>
+                <label name="feature" value="Test check three message boxes"/>
+                <label name="host" value="DESKTOP-RHO29GN"/>
+                <label name="thread" value="5624@DESKTOP-RHO29GN.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Test check three message boxes"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
