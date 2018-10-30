@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <Recipients>
+    <Recipient  id="1">      
+      <email>daruha2008.yandex.ru</email>
+      <text>Hello!</text>
+      </Recipient>   
+    <Recipient id ="2">      
+      <email>migay@autospace.by</email>
+      <text>Good afternoon!</text>   
+    </Recipient>
+ </Recipients>
